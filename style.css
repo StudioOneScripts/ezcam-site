@@ -1,0 +1,29 @@
+:root { --bg: #0f1116; --bg2: #171a21; --line: #2a2f3a; --text: #e6e9ef; --text2: #a3aab8; --accent: #4f8cff; --red: #ff3b5c; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.65 "Segoe UI", system-ui, -apple-system, sans-serif; }
+a { color: var(--accent); }
+.wrap { max-width: 980px; margin: 0 auto; padding: 0 24px; }
+header.top { border-bottom: 1px solid var(--line); }
+header.top .wrap { display: flex; align-items: center; gap: 12px; height: 64px; }
+header.top img { width: 34px; height: 34px; }
+header.top b { font-size: 19px; }
+header.top b span { color: var(--accent); }
+header.top nav { margin-left: auto; display: flex; gap: 22px; font-size: 15px; }
+header.top nav a { color: var(--text2); text-decoration: none; }
+header.top nav a:hover { color: var(--text); }
+.hero { text-align: center; padding: 64px 0 36px; }
+.hero h1 { font-size: 46px; line-height: 1.15; margin: 0 0 14px; letter-spacing: -0.5px; }
+.hero p { font-size: 19px; color: var(--text2); max-width: 640px; margin: 0 auto; }
+.shot { margin: 32px auto 0; border-radius: 12px; border: 1px solid var(--line); box-shadow: 0 24px 70px rgba(0,0,0,.55); max-width: 100%; display: block; }
+.features { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; padding: 52px 0 24px; }
+.card { background: var(--bg2); border: 1px solid var(--line); border-radius: 12px; padding: 20px 22px; }
+.card h3 { margin: 0 0 6px; font-size: 17px; }
+.card p { margin: 0; color: var(--text2); font-size: 15px; }
+.doc { max-width: 760px; padding: 48px 24px 24px; }
+.doc h1 { font-size: 34px; margin: 0 0 6px; }
+.doc h2 { font-size: 21px; margin: 32px 0 8px; }
+.doc .meta { color: var(--text2); font-size: 14px; margin-bottom: 26px; }
+.doc li { margin: 6px 0; }
+footer { border-top: 1px solid var(--line); margin-top: 48px; padding: 22px 0 40px; color: var(--text2); font-size: 14px; }
+footer .wrap { display: flex; gap: 20px; flex-wrap: wrap; }
+@media (max-width: 600px) { .hero h1 { font-size: 34px; } header.top nav { gap: 14px; } }
