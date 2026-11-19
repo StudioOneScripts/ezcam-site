@@ -15,6 +15,8 @@ header.top nav a:hover { color: var(--text); }
 .hero h1 { font-size: 46px; line-height: 1.15; margin: 0 0 14px; letter-spacing: -0.5px; }
 .hero p { font-size: 19px; color: var(--text2); max-width: 640px; margin: 0 auto; }
 .shot { height: auto; margin: 32px auto 0; border-radius: 12px; border: 1px solid var(--line); box-shadow: 0 24px 70px rgba(0,0,0,.55); max-width: 100%; display: block; }
+.beta-note { text-align: center; color: var(--muted, #9aa3b2); font-size: 14.5px; margin: 52px auto -28px; max-width: 640px; line-height: 1.55; }
+.beta-note em { font-style: normal; font-size: 11px; font-weight: 600; color: var(--accent); border: 1px solid var(--accent); border-radius: 6px; padding: 1px 6px; margin-right: 2px; vertical-align: 1px; }
 .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; padding: 52px 0 24px; }
 .card { background: var(--bg2); border: 1px solid var(--line); border-radius: 12px; padding: 20px 22px; }
 .card h3 { margin: 0 0 6px; font-size: 17px; }
